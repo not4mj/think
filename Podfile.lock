@@ -1,0 +1,30 @@
+PODS:
+  - BWWalkthrough (2.0.0)
+  - EZAlertController (3.2)
+  - IQKeyboardManagerSwift (4.0.8)
+  - PaperCollectionView (1.0.4):
+    - pop
+  - pop (1.0.9)
+  - SVProgressHUD (2.1.2)
+  - SwiftyUserDefaults (3.0.0)
+
+DEPENDENCIES:
+  - BWWalkthrough
+  - EZAlertController (= 3.2)
+  - IQKeyboardManagerSwift
+  - PaperCollectionView
+  - SVProgressHUD
+  - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  BWWalkthrough: ca4d3c8526486add00bf38e20e9f3e218bda1ade
+  EZAlertController: 633be01320bed47720be54054df47667d61c2481
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  PaperCollectionView: e9792714a738c02c6fdcf2ae4f54e81ab8b2d441
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+
+PODFILE CHECKSUM: c7575e7f840f646ac8f939543f1639cf2d8a7c0f
+
+COCOAPODS: 1.2.0.beta.3
