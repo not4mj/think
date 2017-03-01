@@ -448,11 +448,11 @@ static NSString * const reuseIdentifier = @"PaperCell";
 }
 
 #pragma mark - UIScrollViewDelegate
-//- (void)scrollViewDidScroll:(UIScrollView *)aScrollView
-//{
-//    [aScrollView setContentOffset: CGPointMake(0,aScrollView.contentOffset.y)];
-//    
-//}
+- (void)scrollViewDidScroll:(UIScrollView *)aScrollView
+{
+    [aScrollView setContentOffset: CGPointMake(0,aScrollView.contentOffset.y)];
+    
+}
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
     
