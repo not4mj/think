@@ -19,7 +19,7 @@
             <objects>
                 <navigationController navigationBarHidden="YES" id="tjK-Kn-bsM" sceneMemberID="viewController">
                     <nil key="simulatedTopBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="5b2-mO-g40">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5b2-mO-g40">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -212,7 +212,7 @@
             <objects>
                 <navigationController navigationBarHidden="YES" id="jxj-sV-uF2" sceneMemberID="viewController">
                     <nil key="simulatedTopBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0rY-BI-wRd">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0rY-BI-wRd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -248,7 +248,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="teZ-me-rpP">
                                 <rect key="frame" x="0.0" y="73" width="375" height="380"/>
                                 <subviews>
-                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1i-sU-GIP">
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1i-sU-GIP">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="380"/>
                                         <color key="backgroundColor" red="1" green="0.98154796850000003" blue="0.96438705759999999" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <gestureRecognizers/>

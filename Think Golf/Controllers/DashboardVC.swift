@@ -43,10 +43,7 @@ class DashboardVC: UIViewController, UICollectionViewDelegate, UICollectionViewD
     
     func setupPaperView(){
         paperView.collectionViewController.collectionView?.register(CustomPaperCell.self, forCellWithReuseIdentifier: kReuseID)
-//        collectionView.register(CarouselCollectionViewCell.self, forCellWithReuseIdentifier: CarouselCollectionViewCell.identifier)
-        
         paperView.addShadow()
-
     }
     
     fileprivate func setupLayout() {
@@ -69,30 +66,24 @@ class DashboardVC: UIViewController, UICollectionViewDelegate, UICollectionViewD
     }
     
     // MARK: - PaperView Delegate
-    func paperViewHeightDidChange(_ height: CGFloat, percentMaximized percent: CGFloat) {
-        print("percent: \(percent)")
+     func paperViewHeightDidChange(_ height: CGFloat, percentMaximized percent: CGFloat) {
+//        print("per: \(per)")
         viewCircle.alpha = 1.0 - percent
-
-        if percent < 0.1 {
-            return
+        UIView.animate(withDuration: 0.0, delay: 0.0, options: [.curveLinear], animations: { () -> Void in
+            self.viewCircle.transform = CGAffineTransform(scaleX: 1.0 - percent, y:1.0 - percent)
+        }) { (animationCompleted: Bool) -> Void in
         }
-        self.viewCircle.transform = CGAffineTransform.identity
-        self.viewCircle.frame = UIScreen.main.bounds
-        self.viewCircle.transform = CGAffineTransform(scaleX: 1.0 - percent, y:1.0 -  percent)
     }
     
     func paperViewWillMinimize(_ view: PaperView){
-        //        self.view.bringSubview(toFront: viewCircle)
         print("Minimize")
+
     }
     func paperViewWillMaximize(_ view: PaperView){
-        //        self.view.sendSubview(toBack: viewCircle)
         print("Maximize")
 }
-
     
     // MARK: - IBAction
-    
     @IBAction func onTapCircle1(_ sender: UITapGestureRecognizer) {
            print("Tapped 1")
         resetCircleSelection()
@@ -129,8 +120,7 @@ class DashboardVC: UIViewController, UICollectionViewDelegate, UICollectionViewD
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        print("collectionView FRAME\(collectionView.frame)")
-        if collectionView.frame.size.height > 190 {
+        if collectionView.tag > 0 {
             //Circle Collecton
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CarouselCollectionViewCell.identifier, for: indexPath) as! CarouselCollectionViewCell
             let character = items[(indexPath as NSIndexPath).row]

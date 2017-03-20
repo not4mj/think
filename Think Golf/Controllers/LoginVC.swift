@@ -85,7 +85,7 @@ class LoginVC: UIViewController, BWWalkthroughViewControllerDelegate {
     // MARK: - Event Listeners
     @IBAction func onTapLogin(_ sender: UIButton) {
         showSpinner(message: "Logging in...")
-        callTimer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(self.login), userInfo: nil, repeats: false)
+        callTimer = Timer.scheduledTimer(timeInterval: 0.0, target: self, selector: #selector(self.login), userInfo: nil, repeats: false)
     }
     
     
