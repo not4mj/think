@@ -84,7 +84,7 @@ class LoginVC: UIViewController, BWWalkthroughViewControllerDelegate {
     
     // MARK: - Event Listeners
     @IBAction func onTapLogin(_ sender: UIButton) {
-        showSpinner(message: "Logging in...")
+        showSpinner("Logging in...")
         callTimer = Timer.scheduledTimer(timeInterval: 0.0, target: self, selector: #selector(self.login), userInfo: nil, repeats: false)
     }
     
@@ -102,7 +102,7 @@ class LoginVC: UIViewController, BWWalkthroughViewControllerDelegate {
     }
     
     // MARK: - Unwind
-    @IBAction func unwindToLogin(segue: UIStoryboardSegue) {
+    @IBAction func unwindToLogin(_ segue: UIStoryboardSegue) {
     }
 
     
@@ -113,7 +113,7 @@ class LoginVC: UIViewController, BWWalkthroughViewControllerDelegate {
     }
     
     // MARK: - Navigation
-     func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == SegueIdentifiers.presentDashboard {
             let navController = segue.destination as! UINavigationController
             _ = navController.topViewController as! DashboardVC

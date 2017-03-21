@@ -54,7 +54,7 @@ class RegistrationVC: UIViewController, BWWalkthroughViewControllerDelegate {
     // MARK: - Event Listeners
     
     @IBAction func onTapSignup(_ sender: Any) {
-        showSpinner(message: "Signing up...")
+        showSpinner("Signing up...")
         callTimer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(self.registerUser), userInfo: nil, repeats: false)
     }
     
@@ -72,7 +72,7 @@ class RegistrationVC: UIViewController, BWWalkthroughViewControllerDelegate {
     }
     
     // MARK: - Navigation
-     func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == SegueIdentifiers.presentDashboard {
             let navController = segue.destination as! UINavigationController
             _ = navController.topViewController as! DashboardVC

@@ -2,8 +2,8 @@
 //  Helper.swift
 //  MCHAnywhere
 //
-//  Created by Tejaswi on 9/4/15.
-//  Copyright (c) 2015 Miami Children's Hospital. All rights reserved.
+//  Created by Mohsin on 9/4/15.
+//  Copyright (c) 2017 MJ. All rights reserved.
 //
 
 import Foundation
@@ -37,9 +37,9 @@ let kRegExEmail = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
 
 //Enums
 enum ApponintmentType : Int {
-    case Waiting
-    case Scheduled
-    case Unknown
+    case waiting
+    case scheduled
+    case unknown
 }
 
 //Font
@@ -47,7 +47,7 @@ let FontUITextRegular = "SFUIText-Regular"
 
 typealias BasicBlock = () -> (Void)
 
-func showSpinner(message: String) {
+func showSpinner(_ message: String) {
     SVProgressHUD.show(withStatus: message)
     SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.clear)
 }
@@ -56,13 +56,13 @@ func dismissSpinner() {
     SVProgressHUD.dismiss()
 }
 
-func dismissSpinnerWithError(message: String) {
+func dismissSpinnerWithError(_ message: String) {
     SVProgressHUD.showError(withStatus: message)
 }
-func printLog(log: AnyObject?) {
+func printLog(_ log: AnyObject?) {
     let formatter = DateFormatter()
     formatter.dateFormat = "yyyy-MM-dd HH:mm:ss.SSS "
-    print(formatter.string(from: NSDate() as Date), terminator: "")
+    print(formatter.string(from: Date() as Date), terminator: "")
     if log == nil {
         print("nil")
     }
@@ -72,7 +72,7 @@ func printLog(log: AnyObject?) {
 }
 
 
-func dismissModalStack(viewController: UIViewController, animated: Bool, completionBlock: BasicBlock?) {
+func dismissModalStack(_ viewController: UIViewController, animated: Bool, completionBlock: BasicBlock?) {
     if viewController.presentingViewController != nil {
         var vc = viewController.presentingViewController!
         while (vc.presentingViewController != nil) {
@@ -86,7 +86,7 @@ func dismissModalStack(viewController: UIViewController, animated: Bool, complet
     }
 }
 
-func showAlert(title: String, message: String,buttonTitle:String,source:AnyObject) {
+func showAlert(_ title: String, message: String,buttonTitle:String,source:AnyObject) {
     
     
     //    source.view.addSubview(blurEffectView)
@@ -102,7 +102,16 @@ func showAlert(title: String, message: String,buttonTitle:String,source:AnyObjec
     
 }
 
-func appendAuthorizationHeader(token: String?, request: NSMutableURLRequest) {
+//Display Alert - With custom button title
+func showAlert(_ title: String, message: String,buttonTitle:String)
+{
+    let alertController = DBAlertController(title: title, message: message, preferredStyle: .alert)
+    alertController.addAction(UIAlertAction(title: buttonTitle, style: .default, handler: nil))
+    alertController.show()
+}
+
+
+func appendAuthorizationHeader(_ token: String?, request: NSMutableURLRequest) {
     if let t = token {
         request.setValue("Bearer \(t)", forHTTPHeaderField: "Authorization")
     }

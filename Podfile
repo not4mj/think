@@ -12,15 +12,8 @@ target 'ThinkGolf' do
 	pod 'IQKeyboardManagerSwift'
 	pod 'EZAlertController', '3.2'
 	pod 'SVProgressHUD'
-
-  target 'ThinkGolfTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'ThinkGolfUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+    	pod 'OCMapper'
+	pod 'AFNetworking',              '~> 2.0'
+	pod 'AFNetworking/NSURLSession', '~> 2.0'
 
 end

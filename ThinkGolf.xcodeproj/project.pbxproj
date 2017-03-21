@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A214DEF51E483ACEB3F5A45 /* Pods_Think_GolfUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77691683BC116D86522CFA49 /* Pods_Think_GolfUITests.framework */; };
 		2D5E785B1E549220006E3470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E785A1E549220006E3470 /* AppDelegate.swift */; };
 		2D5E78601E549220006E3470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E785E1E549220006E3470 /* Main.storyboard */; };
 		2D5E78631E549220006E3470 /* Think_Golf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E78611E549220006E3470 /* Think_Golf.xcdatamodeld */; };
 		2D5E78651E549220006E3470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E78641E549220006E3470 /* Assets.xcassets */; };
 		2D5E78681E549220006E3470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E78661E549220006E3470 /* LaunchScreen.storyboard */; };
-		2D5E78731E549220006E3470 /* Think_GolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E78721E549220006E3470 /* Think_GolfTests.swift */; };
-		2D5E787E1E549220006E3470 /* Think_GolfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E787D1E549220006E3470 /* Think_GolfUITests.swift */; };
 		2D5E78981E560F91006E3470 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E78941E560F91006E3470 /* LoginVC.swift */; };
 		2D5E789E1E561000006E3470 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E789B1E561000006E3470 /* CarouselCollectionViewCell.swift */; };
 		2D5E789F1E561000006E3470 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E789C1E561000006E3470 /* Character.swift */; };
@@ -27,29 +24,23 @@
 		2DA94C411E613DD300580E7E /* CenturyGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA94C401E613DD300580E7E /* CenturyGothic.ttf */; };
 		2DA94C431E61607100580E7E /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA94C421E61607100580E7E /* RegistrationVC.swift */; };
 		2DB13CD91E61E5CA00062994 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB13CD81E61E5CA00062994 /* Helper.swift */; };
+		2DB7B18A1E804B5800509C70 /* DBAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7B1891E804B5800509C70 /* DBAlertController.swift */; };
+		2DB7B18C1E80ECF900509C70 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7B18B1E80ECF900509C70 /* BaseService.swift */; };
 		2DC9939E1E5D5C7E000CD766 /* CustomPaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC9939D1E5D5C7E000CD766 /* CustomPaperCell.swift */; };
+		2DFB0DD41E80F1EB00918AF0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB0DD31E80F1EB00918AF0 /* Reachability.swift */; };
+		2DFF48321E803F9800A57504 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF482E1E803F9800A57504 /* ConfigurationManager.swift */; };
+		2DFF48331E803F9800A57504 /* URLConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF482F1E803F9800A57504 /* URLConfig.plist */; };
+		2DFF48341E803F9800A57504 /* CredentialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF48311E803F9800A57504 /* CredentialManager.swift */; };
+		2DFF48361E80424F00A57504 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF48351E80424F00A57504 /* CommonMethods.swift */; };
+		2DFF483B1E80428800A57504 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF48381E80428800A57504 /* Info.plist */; };
+		2DFF483C1E80428800A57504 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF48391E80428800A57504 /* KeychainWrapper.swift */; };
+		2DFF48471E80431B00A57504 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF483F1E80431B00A57504 /* Base64.m */; };
+		2DFF48491E80431B00A57504 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF48441E80431B00A57504 /* README.md */; };
+		2DFF484A1E80431B00A57504 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF48461E80431B00A57504 /* XMLReader.m */; };
+		2DFF48531E80440800A57504 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF484D1E80440800A57504 /* DateExtension.swift */; };
+		2DFF48541E80440800A57504 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF484E1E80440800A57504 /* DictionaryExtensions.swift */; };
 		2F0256D86E3297081E02C146 /* Pods_ThinkGolf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B8C5F2A724C8150D861A7F /* Pods_ThinkGolf.framework */; };
-		3B6E8E4F1C182D3A4360B918 /* Pods_ThinkGolfUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF556B6BF4CCA1E9CF96D260 /* Pods_ThinkGolfUITests.framework */; };
-		43B5F2658CED324FB57CEAEA /* Pods_ThinkGolfTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16FDE664F54A9BF32B3707C /* Pods_ThinkGolfTests.framework */; };
-		C4EB561824DA09A0A3243CF1 /* Pods_Think_GolfTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6387BADABD263C9533E6FD5 /* Pods_Think_GolfTests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2D5E786F1E549220006E3470 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D5E784F1E549220006E3470 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D5E78561E549220006E3470;
-			remoteInfo = "Think Golf";
-		};
-		2D5E787A1E549220006E3470 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D5E784F1E549220006E3470 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D5E78561E549220006E3470;
-			remoteInfo = "Think Golf";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2199488BAECF98995F57E63E /* Pods-Think GolfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Think GolfUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Think GolfUITests/Pods-Think GolfUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,10 +51,8 @@
 		2D5E78641E549220006E3470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D5E78671E549220006E3470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D5E78691E549220006E3470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D5E786E1E549220006E3470 /* ThinkGolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkGolfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5E78721E549220006E3470 /* Think_GolfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Think_GolfTests.swift; sourceTree = "<group>"; };
 		2D5E78741E549220006E3470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D5E78791E549220006E3470 /* ThinkGolfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkGolfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5E787D1E549220006E3470 /* Think_GolfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Think_GolfUITests.swift; sourceTree = "<group>"; };
 		2D5E787F1E549220006E3470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D5E78941E560F91006E3470 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -79,7 +68,24 @@
 		2DA94C421E61607100580E7E /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		2DB13CD71E61E48E00062994 /* ThinkGolf-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ThinkGolf-Bridging-Header.h"; sourceTree = "<group>"; };
 		2DB13CD81E61E5CA00062994 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		2DB7B1891E804B5800509C70 /* DBAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBAlertController.swift; path = "3rd Party/DBAlertController.swift"; sourceTree = "<group>"; };
+		2DB7B18B1E80ECF900509C70 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		2DC9939D1E5D5C7E000CD766 /* CustomPaperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPaperCell.swift; sourceTree = "<group>"; };
+		2DFB0DD31E80F1EB00918AF0 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2DFF482E1E803F9800A57504 /* ConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		2DFF482F1E803F9800A57504 /* URLConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = URLConfig.plist; sourceTree = "<group>"; };
+		2DFF48311E803F9800A57504 /* CredentialManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialManager.swift; sourceTree = "<group>"; };
+		2DFF48351E80424F00A57504 /* CommonMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		2DFF48381E80428800A57504 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFF48391E80428800A57504 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		2DFF483A1E80428800A57504 /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftKeychainWrapper.h; sourceTree = "<group>"; };
+		2DFF483E1E80431B00A57504 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		2DFF483F1E80431B00A57504 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		2DFF48441E80431B00A57504 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2DFF48451E80431B00A57504 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		2DFF48461E80431B00A57504 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		2DFF484D1E80440800A57504 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		2DFF484E1E80440800A57504 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtensions.swift; sourceTree = "<group>"; };
 		426741D6F756D80FA8E71D85 /* Pods-ThinkGolf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkGolf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkGolf/Pods-ThinkGolf.debug.xcconfig"; sourceTree = "<group>"; };
 		56B8C5F2A724C8150D861A7F /* Pods_ThinkGolf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinkGolf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77691683BC116D86522CFA49 /* Pods_Think_GolfUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Think_GolfUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,24 +114,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D5E786B1E549220006E3470 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4EB561824DA09A0A3243CF1 /* Pods_Think_GolfTests.framework in Frameworks */,
-				43B5F2658CED324FB57CEAEA /* Pods_ThinkGolfTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D5E78761E549220006E3470 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A214DEF51E483ACEB3F5A45 /* Pods_Think_GolfUITests.framework in Frameworks */,
-				3B6E8E4F1C182D3A4360B918 /* Pods_ThinkGolfUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -145,8 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				2D5E78571E549220006E3470 /* ThinkGolf.app */,
-				2D5E786E1E549220006E3470 /* ThinkGolfTests.xctest */,
-				2D5E78791E549220006E3470 /* ThinkGolfUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +142,8 @@
 			children = (
 				2D5E785A1E549220006E3470 /* AppDelegate.swift */,
 				2DB13CD71E61E48E00062994 /* ThinkGolf-Bridging-Header.h */,
+				2DFF48271E803D0A00A57504 /* Model */,
+				2DFF48281E803D0A00A57504 /* Services */,
 				2D5E78991E560F9F006E3470 /* View */,
 				2D5E78931E560F91006E3470 /* Controllers */,
 				2D5E78951E560F91006E3470 /* Libs */,
@@ -199,6 +187,10 @@
 		2D5E78951E560F91006E3470 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				2DFF484B1E80440800A57504 /* Extensions */,
+				2DFF482D1E803F9800A57504 /* ConfigurationManager */,
+				2DFF48301E803F9800A57504 /* CredentialManager */,
+				2DB7B1891E804B5800509C70 /* DBAlertController.swift */,
 				2D5E78961E560F91006E3470 /* 3rd Party */,
 				2D5E78971E560F91006E3470 /* Common */,
 			);
@@ -208,6 +200,10 @@
 		2D5E78961E560F91006E3470 /* 3rd Party */ = {
 			isa = PBXGroup;
 			children = (
+				2DFF483D1E80431B00A57504 /* Base64 */,
+				2DFF48401E80431B00A57504 /* Reachability */,
+				2DFF48431E80431B00A57504 /* XMLReader */,
+				2DFF48371E80428800A57504 /* SwiftKeychainWrapper */,
 				2DA94C321E6116EB00580E7E /* BWWalkthrough */,
 				2D5E789A1E561000006E3470 /* UPCarouselFlowLayout */,
 			);
@@ -217,6 +213,7 @@
 		2D5E78971E560F91006E3470 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2DFF48351E80424F00A57504 /* CommonMethods.swift */,
 				2DB13CD81E61E5CA00062994 /* Helper.swift */,
 				2D5E78A51E561291006E3470 /* SegueIdentifiers.swift */,
 			);
@@ -266,6 +263,84 @@
 				2DA94C401E613DD300580E7E /* CenturyGothic.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2DFF48271E803D0A00A57504 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DFF48281E803D0A00A57504 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2DB7B18B1E80ECF900509C70 /* BaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2DFF482D1E803F9800A57504 /* ConfigurationManager */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF482E1E803F9800A57504 /* ConfigurationManager.swift */,
+				2DFF482F1E803F9800A57504 /* URLConfig.plist */,
+			);
+			path = ConfigurationManager;
+			sourceTree = "<group>";
+		};
+		2DFF48301E803F9800A57504 /* CredentialManager */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF48311E803F9800A57504 /* CredentialManager.swift */,
+			);
+			path = CredentialManager;
+			sourceTree = "<group>";
+		};
+		2DFF48371E80428800A57504 /* SwiftKeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF48381E80428800A57504 /* Info.plist */,
+				2DFF48391E80428800A57504 /* KeychainWrapper.swift */,
+				2DFF483A1E80428800A57504 /* SwiftKeychainWrapper.h */,
+			);
+			path = SwiftKeychainWrapper;
+			sourceTree = "<group>";
+		};
+		2DFF483D1E80431B00A57504 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF483E1E80431B00A57504 /* Base64.h */,
+				2DFF483F1E80431B00A57504 /* Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		2DFF48401E80431B00A57504 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				2DFB0DD31E80F1EB00918AF0 /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		2DFF48431E80431B00A57504 /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF48441E80431B00A57504 /* README.md */,
+				2DFF48451E80431B00A57504 /* XMLReader.h */,
+				2DFF48461E80431B00A57504 /* XMLReader.m */,
+			);
+			path = XMLReader;
+			sourceTree = "<group>";
+		};
+		2DFF484B1E80440800A57504 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF484D1E80440800A57504 /* DateExtension.swift */,
+				2DFF484E1E80440800A57504 /* DictionaryExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D544E99309C08B9BFF796E98 /* Pods */ = {
@@ -323,48 +398,6 @@
 			productReference = 2D5E78571E549220006E3470 /* ThinkGolf.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D5E786D1E549220006E3470 /* ThinkGolfTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D5E78851E549220006E3470 /* Build configuration list for PBXNativeTarget "ThinkGolfTests" */;
-			buildPhases = (
-				9A454B992E6056C3B3FBAC02 /* [CP] Check Pods Manifest.lock */,
-				2D5E786A1E549220006E3470 /* Sources */,
-				2D5E786B1E549220006E3470 /* Frameworks */,
-				2D5E786C1E549220006E3470 /* Resources */,
-				E34682AFBB66BF735B34B558 /* [CP] Embed Pods Frameworks */,
-				C38CB1850D7883C8DE9DB3AF /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D5E78701E549220006E3470 /* PBXTargetDependency */,
-			);
-			name = ThinkGolfTests;
-			productName = "Think GolfTests";
-			productReference = 2D5E786E1E549220006E3470 /* ThinkGolfTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2D5E78781E549220006E3470 /* ThinkGolfUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D5E78881E549220006E3470 /* Build configuration list for PBXNativeTarget "ThinkGolfUITests" */;
-			buildPhases = (
-				8A7CE0703A2F32F51545B67F /* [CP] Check Pods Manifest.lock */,
-				2D5E78751E549220006E3470 /* Sources */,
-				2D5E78761E549220006E3470 /* Frameworks */,
-				2D5E78771E549220006E3470 /* Resources */,
-				3222E6D352CD963DE82197E9 /* [CP] Embed Pods Frameworks */,
-				0DE2D5E3FBCF57A9CD6EDA7E /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D5E787B1E549220006E3470 /* PBXTargetDependency */,
-			);
-			name = ThinkGolfUITests;
-			productName = "Think GolfUITests";
-			productReference = 2D5E78791E549220006E3470 /* ThinkGolfUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -378,17 +411,8 @@
 					2D5E78561E549220006E3470 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 2BMJ72PCJ8;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
-					};
-					2D5E786D1E549220006E3470 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2D5E78561E549220006E3470;
-					};
-					2D5E78781E549220006E3470 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2D5E78561E549220006E3470;
 					};
 				};
 			};
@@ -406,8 +430,6 @@
 			projectRoot = "";
 			targets = (
 				2D5E78561E549220006E3470 /* ThinkGolf */,
-				2D5E786D1E549220006E3470 /* ThinkGolfTests */,
-				2D5E78781E549220006E3470 /* ThinkGolfUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -421,42 +443,15 @@
 				2DA94C361E6116EB00580E7E /* Walkthrough.storyboard in Resources */,
 				2DA94C411E613DD300580E7E /* CenturyGothic.ttf in Resources */,
 				2D5E78651E549220006E3470 /* Assets.xcassets in Resources */,
+				2DFF48331E803F9800A57504 /* URLConfig.plist in Resources */,
 				2D5E78601E549220006E3470 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D5E786C1E549220006E3470 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D5E78771E549220006E3470 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2DFF483B1E80428800A57504 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DE2D5E3FBCF57A9CD6EDA7E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkGolfUITests/Pods-ThinkGolfUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2F835E021B05E62D9D9D8BCE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -470,36 +465,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkGolf/Pods-ThinkGolf-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3222E6D352CD963DE82197E9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkGolfUITests/Pods-ThinkGolfUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A7CE0703A2F32F51545B67F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		97E143648894E36843F6C161 /* [CP] Check Pods Manifest.lock */ = {
@@ -517,36 +482,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		9A454B992E6056C3B3FBAC02 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C38CB1850D7883C8DE9DB3AF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkGolfTests/Pods-ThinkGolfTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D3772542379E830092D07A9B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -562,21 +497,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkGolf/Pods-ThinkGolf-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E34682AFBB66BF735B34B558 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkGolfTests/Pods-ThinkGolfTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -587,49 +507,32 @@
 				2D5E789E1E561000006E3470 /* CarouselCollectionViewCell.swift in Sources */,
 				2D5E78981E560F91006E3470 /* LoginVC.swift in Sources */,
 				2D5E78A21E561093006E3470 /* DashboardVC.swift in Sources */,
+				2DFF48361E80424F00A57504 /* CommonMethods.swift in Sources */,
 				2DA94C351E6116EB00580E7E /* CustomPageViewController.swift in Sources */,
 				2D5E78A01E561000006E3470 /* GradientView.swift in Sources */,
 				2D5E789F1E561000006E3470 /* Character.swift in Sources */,
+				2DFF48341E803F9800A57504 /* CredentialManager.swift in Sources */,
+				2DFF483C1E80428800A57504 /* KeychainWrapper.swift in Sources */,
 				2D5E785B1E549220006E3470 /* AppDelegate.swift in Sources */,
+				2DFF48531E80440800A57504 /* DateExtension.swift in Sources */,
 				2DA94C431E61607100580E7E /* RegistrationVC.swift in Sources */,
+				2DFF48321E803F9800A57504 /* ConfigurationManager.swift in Sources */,
 				2D5E78A61E561291006E3470 /* SegueIdentifiers.swift in Sources */,
+				2DFF48541E80440800A57504 /* DictionaryExtensions.swift in Sources */,
+				2DFF484A1E80431B00A57504 /* XMLReader.m in Sources */,
+				2DB7B18C1E80ECF900509C70 /* BaseService.swift in Sources */,
 				2D5E78A41E561112006E3470 /* UPCarouselFlowLayout.swift in Sources */,
+				2DB7B18A1E804B5800509C70 /* DBAlertController.swift in Sources */,
+				2DFF48471E80431B00A57504 /* Base64.m in Sources */,
 				2DB13CD91E61E5CA00062994 /* Helper.swift in Sources */,
 				2D5E78631E549220006E3470 /* Think_Golf.xcdatamodeld in Sources */,
+				2DFF48491E80431B00A57504 /* README.md in Sources */,
+				2DFB0DD41E80F1EB00918AF0 /* Reachability.swift in Sources */,
 				2DC9939E1E5D5C7E000CD766 /* CustomPaperCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D5E786A1E549220006E3470 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D5E78731E549220006E3470 /* Think_GolfTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D5E78751E549220006E3470 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D5E787E1E549220006E3470 /* Think_GolfUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2D5E78701E549220006E3470 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D5E78561E549220006E3470 /* ThinkGolf */;
-			targetProxy = 2D5E786F1E549220006E3470 /* PBXContainerItemProxy */;
-		};
-		2D5E787B1E549220006E3470 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D5E78561E549220006E3470 /* ThinkGolf */;
-			targetProxy = 2D5E787A1E549220006E3470 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2D5E785E1E549220006E3470 /* Main.storyboard */ = {
@@ -776,64 +679,6 @@
 			};
 			name = Release;
 		};
-		2D5E78861E549220006E3470 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C511A23AB2C137E717E829D2 /* Pods-ThinkGolfTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Think GolfTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vogcalgaryappdeveloper.thinkgolf.Think-GolfTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkGolf.app/ThinkGolf";
-			};
-			name = Debug;
-		};
-		2D5E78871E549220006E3470 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB44ED303B6A8E388315B8A7 /* Pods-ThinkGolfTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Think GolfTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vogcalgaryappdeveloper.thinkgolf.Think-GolfTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkGolf.app/ThinkGolf";
-			};
-			name = Release;
-		};
-		2D5E78891E549220006E3470 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6C91E223984727693F40B7E /* Pods-ThinkGolfUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "Think GolfUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vogcalgaryappdeveloper.thinkgolf.Think-GolfUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Think Golf";
-			};
-			name = Debug;
-		};
-		2D5E788A1E549220006E3470 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1950A816F5B6E382D32CCD4 /* Pods-ThinkGolfUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "Think GolfUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vogcalgaryappdeveloper.thinkgolf.Think-GolfUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Think Golf";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -851,24 +696,6 @@
 			buildConfigurations = (
 				2D5E78831E549220006E3470 /* Debug */,
 				2D5E78841E549220006E3470 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D5E78851E549220006E3470 /* Build configuration list for PBXNativeTarget "ThinkGolfTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D5E78861E549220006E3470 /* Debug */,
-				2D5E78871E549220006E3470 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D5E78881E549220006E3470 /* Build configuration list for PBXNativeTarget "ThinkGolfUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D5E78891E549220006E3470 /* Debug */,
-				2D5E788A1E549220006E3470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

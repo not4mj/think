@@ -8,5 +8,10 @@
 
 #ifndef ThinkGolf_Bridging_Header_h
 #define ThinkGolf_Bridging_Header_h
-#import <SVProgressHUD/SVProgressHUD.h>
+
+//#import <SVProgressHUD/SVProgressHUD.h>
+#import <OCMapper/ObjectMapper.h>
+#import <OCMapper/OCMapper.h>
+#import <OCMapper/ObjectMappingInfo.h>
+#import <AFNetworking/AFNetworking.h>
 #endif /* ThinkGolf_Bridging_Header_h */

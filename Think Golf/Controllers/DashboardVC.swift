@@ -58,9 +58,9 @@ class DashboardVC: UIViewController, UICollectionViewDelegate, UICollectionViewD
         imgViewCircle4.isHighlighted = false
     }
     
-    func scrollLayoutAtIndex(index:Int) {
+    func scrollLayoutAtIndex(_ index:Int) {
         self.currentPage = index
-        let indexPath = NSIndexPath(row: index, section: 0)
+        let indexPath = IndexPath(row: index, section: 0)
         collectionView.scrollToItem(at: indexPath as IndexPath, at: .centeredHorizontally, animated: true)
         paperView.collectionViewController.collectionView?.scrollToItem(at: indexPath as IndexPath, at: .centeredHorizontally, animated: true)
     }
@@ -88,25 +88,25 @@ class DashboardVC: UIViewController, UICollectionViewDelegate, UICollectionViewD
            print("Tapped 1")
         resetCircleSelection()
         imgViewCircle1.isHighlighted = true
-        scrollLayoutAtIndex(index: 0)
+        scrollLayoutAtIndex(0)
     }
     @IBAction func onTapCircle2(_ sender: UITapGestureRecognizer) {
         print("Tapped 2")
         resetCircleSelection()
         imgViewCircle2.isHighlighted = true
-        scrollLayoutAtIndex(index: 1)
+        scrollLayoutAtIndex(1)
     }
     @IBAction func onTapCircle3(_ sender: UITapGestureRecognizer) {
         print("Tapped 3")
         resetCircleSelection()
         imgViewCircle3.isHighlighted = true
-        scrollLayoutAtIndex(index: 2)
+        scrollLayoutAtIndex(2)
     }
     @IBAction func onTapCircle4(_ sender: UITapGestureRecognizer) {
         print("Tapped 4")
         resetCircleSelection()
         imgViewCircle4.isHighlighted = true
-        scrollLayoutAtIndex(index: 3)
+        scrollLayoutAtIndex(3)
     }
     
     // MARK: - Card Collection Delegate & DataSource
